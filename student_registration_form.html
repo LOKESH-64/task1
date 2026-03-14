@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form action="./login.html">
+
+<label>Name:</label><br>
+<input type="text" name="name" required><br>
+
+<label>Email:</label><br>
+<input type="email" name="email" required><br>
+
+<label>Password:</label><br>
+<input type="password" name="password" required><br>
+
+<label>Confirm Password:</label><br>
+<input type="password" name="confirm_password" required><br>
+
+<label>Mobile Number:</label><br>
+<input type="tel" name="mobile" pattern="[0-9]{10}" required><br><br>
+
+<label>Gender:</label><br>
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+<input type="radio" name="gender" value="other"> Other
+<br><br>
+
+<label>Educational Details:</label><br>
+<input type="checkbox" name="education" value="10th"> 10th
+<input type="checkbox" name="education" value="inter"> Inter
+<input type="checkbox" name="education" value="btech"> BTech
+<input type="checkbox" name="education" value="diploma"> Diploma
+<br><br>
+
+<label>City:</label><br>
+<input type="text" name="city"><br>
+
+<label>Address:</label><br>
+<textarea name="address" rows="4" cols="30"></textarea>
+<br><br>
+
+<input type="submit" value="Register">
+
+
+</form>
+
+</body>
+</html>
